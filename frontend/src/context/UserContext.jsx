@@ -11,7 +11,7 @@ const guestUser = {
 
 function UserContext({children}) {
 
-    const serverUrl="http://localhost:8000"
+    const serverUrl="https://virtual-assistant-backend-sonx.onrender.com"
 
     const [userData,setUserData]=useState(guestUser)
     const [isAuthenticated,setIsAuthenticated]=useState(false)
