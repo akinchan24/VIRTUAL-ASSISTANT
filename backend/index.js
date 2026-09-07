@@ -10,7 +10,7 @@ import geminiResponse from "./gemini.js"
 
 
 const app=express()
-const allowedOrigins="http://localhost:5173"
+const allowedOrigins="https://virtual-assistant-jxwt.onrender.com"
 app.use(cors({
     origin:(origin, callback)=>{
         if(!origin){
